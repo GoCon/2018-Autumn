@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Basic');
+
+body {
+  background-color: #fff;
+  font-family: 'Basic', cursive;
+}
+
+#content {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.sub-content {
+  color: white;
+  background-color: #31353e;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+}
+
+.sub-content table {
+  background-color: white;
+  border-radius: 0.4rem;
+}
+
+.sub-content table, .sub-content td, .sub-content th {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  color: #000;
+}
+
+.sub-content td, .sub-content th {
+  padding: 0.5em;
+}
+
+.sub-content a {
+  color: #f55;
+}
