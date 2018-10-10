@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+    background-color: darkorange;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: radial-gradient(white 10%, transparent 20%), radial-gradient(white 10%, transparent 20%);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+a {
+    color: darkblue;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#top-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.preface {
+     font-size: 15px;
+     margin-top: 30px;
+     margin-left: 100px;
+ }
+
+#main-contents {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.contents-header {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    padding: 0.3em;
+}
+
+.contents-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 7px;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+
+.message-contents {
+    font-size: 15px;
+    color: #444444;
+}
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 400px;
+    background: url('StevenBuss053.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.mdl-card__title-text {
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
