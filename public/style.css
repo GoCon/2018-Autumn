@@ -31,6 +31,18 @@ h1 {
 
 .contents-header {
     font-family: 'Merriweather', serif;
+    position: relative;
+    padding: 0.3em;
+}
+
+.contents-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 7px;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
 }
 
 .message-contents {
