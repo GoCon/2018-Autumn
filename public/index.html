@@ -55,7 +55,7 @@
     Attendees can register on <a href="https://gocon.connpass.com/event/109368/">the connpass page</a>.
     </p>
 
-    <h1>Schedule</h1>
+    <h1><a name="schedule">Schedule</a></h1>
     <ul>
       <li>Oct 10th: Open CfP</li>
       <li>Oct 30th: Close CfP</li>
@@ -76,36 +76,76 @@
 
     <h1>Time Table</h1>
     <table border="1">
-        <tr><th>Time</th><th>Room A</th><th>Room B</th><th>Room C</th><th>Cafe</th></tr></td><tr>
+        <tr><th>Time</th><th>Room A</th><th>Room B</th><th>Room C</th><th>Cafe</th></tr>
         <tr><td>09:30 -</td><td colspan="2">Open</td><td>-</td><td>-</td></tr>
         <tr><td>10:00 - 10:10</td><td colspan="2">Opening Talk</td><td>-</td><td>-</td></tr>
         <tr><td>10:10 - 11:00</td><td colspan="2">Keynote</td><td>-</td><td>-</td></tr>
         <tr><td>11:00 - 11:10</td><td colspan="2">Break</td><td>-</td><td>-</td></tr>
-        <tr><td>11:10 - 11:30</td><td colspan="2">Sponsor Session 1</td><td rowspan="2">Handson<br>by Progate</td><td>-</td></tr>
-        <tr><td>11:30 - 11:50</td><td colspan="2">Sponsor Session 2</td><td>-</td></tr>
+        <tr><td>11:10 - 11:30</td><td colspan="2"><a href="#S1">S1</a></td><td rowspan="2">Handson<br>by Progate(<a href="https://prog-8.com">JP</a>/<a href="https://progate.com">EN</a>)</td><td>-</td></tr>
+        <tr><td>11:30 - 11:50</td><td colspan="2"><a href="#S2">S2</a></td><td>-</td></tr>
         <tr><td>11:50 - 13:20</td><td colspan="4">Lunch Break</td></tr>
-        <tr><td>13:20 - 13:40</td><td><a href="#A1">A1(S)</a></td><td><a href="#B1">B1(S)</a></td><td rowspan="4">Handson<br>by Women Who Go Tokyo</td><td>-</td></tr>
+        <tr><td>13:20 - 13:40</td><td><a href="#A1">A1(S)</a></td><td><a href="#B1">B1(S)</a></td><td rowspan="4"><a href="https://womenwhogotokyo.github.io/codelab/">Handson<br>by Women Who Go Tokyo</a></td><td>-</td></tr>
         <tr><td>13:40 - 14:00</td><td><a href="#A2">A2(S)</a></td><td><a href="#B2">B2(S)</a></td><td>-</td></tr>
         <tr><td>14:00 - 14:10</td><td colspan="2">Break</td><td>-</td></tr>
         <tr><td>14:10 - 14:50</td><td><a href="#A3">A3(L)</a></td><td><a href="#B3">B3(L)</a></td><td></td></tr>
         <tr><td>14:50 - 15:00</td><td colspan="4">Break</td></tr>
-        <tr><td>15:00 - 15:20</td><td><a href="#A4">A4(S)</a></td><td><a href="#B4">B4(S)</a></td><td rowspan="4">Handson<br>by golang.tokyo</td><td>-</td></tr>
+        <tr><td>15:00 - 15:20</td><td><a href="#A4">A4(S)</a></td><td><a href="#B4">B4(S)</a></td><td rowspan="4"><a href="https://golangtokyo.github.io/codelab/">Handson<br>by golang.tokyo</a></td><td>-</td></tr>
         <tr><td>15:20 - 15:40</td><td><a href="#A5">A5(S)</a></td><td><a href="#B5">B5(S)</a></td><td>-</td></tr>
         <tr><td>15:40 - 15:50</td><td colspan="2">Break</td><td>-</td></tr>
         <tr><td>15:50 - 16:30</td><td><a href="#A6">A6(L)</a></td><td><a href="#B6">B6(L)</a></td><td>-</td></tr>
         <tr><td>16:30 - 16:40</td><td colspan="4">Break</td></tr>
         <tr><td>16:40 - 17:00</td><td><a href="#A7">A7(S)</a></td><td><a href="#B7">B7(S)</a></td><td>-</td><td>-</td></tr>
-        <tr><td>17:00 - 17:20</td><td colspan="2">Sponsor Session 3</td><td>-</td><td>-</td></tr>
+        <tr><td>17:00 - 17:20</td><td colspan="2"><a href="#S3">S3</a></td><td>-</td><td>-</td></tr>
         <tr><td>17:20 - 17:30</td><td colspan="4">Break</td></tr>
         <tr><td>17:30 - 17:35</td><td colspan="3">-</td><td>Open After Party</td></tr>
-        <tr><td>17:35 - 17:55</td><td colspan="3">-</td><td>Sponsor Session 4</td></tr>
+        <tr><td>17:35 - 17:55</td><td colspan="3">-</td><td><a href="#S4">S4</a></td></tr>
         <tr><td>17:55 - 18:10</td><td colspan="3">-</td><td><a href="#LT">LT x 2</a></td></tr>
         <tr><td>18:10 - 18:40</td><td colspan="3">-</td><td>Close After Party</td></tr>
         <tr><td>18:40 - 19:00</td><td colspan="4">Close</td></tr>
     </table>
 
     <h1>Talks</h1>
-    <a name="A1"><h2>[A1(S)] OpenCensus による APM の実現と、未来</h2></a>
+
+    <h2><a name="S1">[S1] Microservices実装ガイド in Go at Mercari</a></h2>
+    <h3>Session Information</h3>
+    <table border="1">
+        <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
+        <tr><td>Japanese</td><td>@yagi5（株式会社メルカリ）</td><td>Sponsor Session</td></tr>
+    </table>
+    <h3>Summary</h3>
+    <p>メルカリでは、モノリシックなAPIをMicroservicesとしてGoで作り直すことを選択しました。
+    これからGoでMicroservicesを作っていくチームや会社のために、ライブラリやアーキテクチャ、チーム構成などについても紹介します。</p>
+
+    <h2><a name="S2">[S2] よくあるJava IT企業で新規プロジェクトをGoで立ち上げてみてる話</a></h2>
+    <h3>Session Information</h3>
+    <table border="1">
+        <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
+        <tr><td>Japanese</td><td>武田 洋平（株式会社メディアドゥ）</td><td>Sponsor Session</td></tr>
+    </table>
+    <h3>Summary</h3>
+    <p>goでプロダクトを作りたい！と思う方は昨今たくさんいると思いますが、実際に会社で導入するとなると色々ハードルが高いところもあるのではないでしょうか。
+    弊社もそんな会社の一つでしたが、なんとかgo導入に踏み切りました。その過程を、泥臭いような話も含めて紹介したいと思います。</p>
+
+    <h2><a name="S3">[S3] Pains and gains of architecting microservices on local dev environment</a></h2>
+    <h3>Session Information</h3>
+    <table border="1">
+        <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
+        <tr><td>Japanese</td><td>@creasty, @izumin5210（ウォンテッドリー株式会社）</td><td>Sponsor Session</td></tr>
+    </table>
+    <h3>Summary</h3>
+    <p>Wantedly では解決する課題に応じた最適な技術選定をするために、機能毎に小さくサービスが分けられ、Golang, Ruby,Python, Rust, Node.jsなど多様な言語が使われています。この様な状況においては、増大する開発の複雑さに立ち向かい、「気持ちよく」開発を継続できる環境が重要となります。<br>
+    本セッションでは「言語が異なることによる開発環境構築の複雑化」と「複数サービス間通信時のサービスディスカバリ」の2つの問題に焦点を当て、ローカル環境での開発体験をいかに向上させたかについてお話します。</p>
+
+    <h2><a name="S4">[S4] 大規模ウェブサービスにおけるコードレビュー観点</a></h2>
+    <h3>Session Information</h3>
+    <table border="1">
+        <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
+        <tr><td>Japanese</td><td>井本 裕（株式会社ディー・エヌ・エー）</td><td>Sponsor Session</td></tr>
+    </table>
+    <h3>Summary</h3>
+    <p>DeNA では Google App Engine Standard Environment (GAE SE) を用い、マイクロサービスとして大規模なトラフィックをさばくウェブサービスを開発・運用しています。 GAE SE は強力なPaaSですが、1インスタンスあたりのメモリ使用量が限られるという制約もあります。本発表では、GAE SE 上で高ハイパフォーマンスを実現するために、日々開発現場で用いているメモリ最適化手法を中心に、コードレビュー観点をご紹介します。</p>
+
+    <h2><a name="A1">[A1(S)] OpenCensus による APM の実現と、未来</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -118,7 +158,7 @@
         その上で OpenCensus がどのように課題を解決したのか、また OpenCensus による Go のアプリケーションモニタリングの未来について、アーキテクチャやエコシステム、実装例を交えながら解説します。
     </p>
 
-    <a name="A2"><h2>[A2(S)] Profiling Go Application</h2></a>
+    <h2><a name="A2">[A2(S)] Profiling Go Application</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -129,7 +169,7 @@
     パフォーマンス・チューニングの勉強用に作った画像変換サーバで起きた問題への調査, kubeletのパフォーマンス問題を調査してPRを出した話.
     </p>
 
-    <a name="A3"><h2>[A3(L)] Reading Source code of Biscuit (GO OS)</h2></a>
+    <h2><a name="A3">[A3(L)] Reading Source code of Biscuit (GO OS)</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -138,7 +178,7 @@
     <h3>Summary</h3>
     <p>Describe Biscuit's source code</p>
 
-    <a name="A4"><h2>[A4(S)] Consider pluggable CLI tool implementation</h2></a>
+    <h2><a name="A4">[A4(S)] Consider pluggable CLI tool implementation</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -151,7 +191,7 @@
     本発表では，実装手法の検討時に行った既存ツールの調査と実際に採用した手法の紹介，実装時に意識したことなどについて紹介します．
     </p>
 
-    <a name="A5"><h2>[A5(S)] フィードバック制御によるGoroutine起動数の最適化</h2></a>
+    <h2><a name="A5">[A5(S)] フィードバック制御によるGoroutine起動数の最適化</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -165,7 +205,7 @@
     発表では、フィードバック制御の基礎に触れたのち、Goランタイムの特性を踏まえた制御器の設計を通し、これらを実現するライブラリを開発して紹介します。
     </p>
 
-    <a name="A6"><h2>[A6(L)] Practical Go Concurrency Design Patterns</h2></a>
+    <h2><a name="A6">[A6(L)] Practical Go Concurrency Design Patterns</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -174,7 +214,7 @@
     <h3>Summary</h3>
     <p>Explains the effective usage of channels and sync.* functions.</p>
 
-    <a name="A7"><h2>[A7(S)] 君の並行処理は実行するまでもなく間違っている</h2></a>
+    <h2><a name="A7">[A7(S)] 君の並行処理は実行するまでもなく間違っている</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -183,7 +223,7 @@
     <h3>Summary</h3>
     <p>メッセージパッシングによる並行処理は強力で魅力的な機能ですが、同時にバグが発生しやすくかつ発見しづらい部分でもあります。本セッションでは、Go プログラムからその挙動を形式的に記述した振舞い型 (behavioural types) を抽出することで、並行処理に潜むバグを静的に検出する手法について解説します。</p>
 
-    <a name="B1"><h2>[B1(S)] Becoming the voice of Go</h2></a>
+    <h2><a name="B1">[B1(S)] Becoming the voice of Go</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -196,7 +236,7 @@
     In this session, Angela will talk about the importance of writing documentation for your Go code, lessons she’s learned from writing Go documentation, and how spending a little bit of time documenting your Go code can have a huge impact on your career.
     </p>
 
-    <a name="B2"><h2>[B2(S)] Write your own database like playing lego</h2></a>
+    <h2><a name="B2">[B2(S)] Write your own database like playing lego</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -205,7 +245,7 @@
     <h3>Summary</h3>
     <p>Write your own database like playing lego</p>
 
-    <a name="B3"><h2>[B3(L)] Linting, Slicing, and Dicing OpenAPI documents</h2></a>
+    <h2><a name="B3">[B3(L)] Linting, Slicing, and Dicing OpenAPI documents</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -216,7 +256,7 @@
     OpenAPI を操るツールはたくさんありますが、自分のユースケースに合わせた変更を行いたい場合に満足いくライブラリレベルでのAPIを提供しているケースは稀です。OpenAPIの仕様を覚えるのと同時に、RESTやProtocol Bufferのデータを自分好みに出力するために必要な様々なAPIを揃えたライブラリを作成したので、その設計思想を含めた紹介をさせていただきます
     </p>
 
-    <a name="B4"><h2>[B4(S)] Beloved database/sql. How we go test with RDBMS.</h2></a>
+    <h2><a name="B4">[B4(S)] Beloved database/sql. How we go test with RDBMS.</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -227,7 +267,7 @@
     Many of API servers tend to interact with RDBMS to serve structured data for frontend. Unlike other languages with full-featureed web application frameworks, it seems, at first glance, a little difficult to write tests for Go applications using RDBMS. However, knowing `database/sql` with a bit of RDBMS knowledge is just enough to write clean tests for RDBMS backed Go applications. In this talk, I'll describe how to write efficient RDBMS backed Go application tests.
     </p>
 
-    <a name="B5"><h2>[B5(S)] 3カ国のクライアントを支えるAPI基盤の構築</h2></a>
+    <h2><a name="B5">[B5(S)] 3カ国のクライアントを支えるAPI基盤の構築</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -236,7 +276,7 @@
     <h3>Summary</h3>
     <p>同じリポジトリで3カ国向けにAPIサーバーを提供するナレッジについてお話します。</p>
 
-    <a name="B6"><h2>[B6(L)] API Testing the Hard Way</h2></a>
+    <h2><a name="B6">[B6(L)] API Testing the Hard Way</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -245,7 +285,7 @@
     <h3>Summary</h3>
     <p>GoのAPIのテストを書く場合、ユニットテストのようにGo標準のツールで担保できる範囲を超えた共通処理を用意したり、実行環境作りを意識する必要があります。レイヤー化されたアーキテクチャでどこまでモックするか、ユニットテストと統合テストのバランス、無駄だった共通化、使ってみてダメだったツールなど、失敗事例も含めて模索したGoのAPIのテストについて、地道に改善した結果をお話しします。</p>
 
-    <a name="B7"><h2>[B7(S)] Introduce GAE/Go 2nd generation</h2></a>
+    <h2><a name="B7">[B7(S)] Introduce GAE/Go 2nd generation</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -254,7 +294,7 @@
     <h3>Summary</h3>
     <p>GAE/Go 1st genと2nd genの比較、移行について、2nd genになったことで改めてGAEの価値の再考</p>
 
-    <a name="LT"><h2>[LT1] 社内初導入のAPIサーバーサイドアーキテクチャ設計戦略</h2></a>
+    <h2><a name="LT">[LT1] 社内初導入のAPIサーバーサイドアーキテクチャ設計戦略</a></h2>
     <h3>Session Information</h3>
     <table border="1">
         <tr><th>Language</th><th>Speaker</th><th>Session Type</th></tr>
@@ -297,12 +337,17 @@
                 </a>
             </td>
             <td class="sponsor">
-                <a href="https://www.mercari.com/jp/">
-                    <img alt="Mecari, Inc." src="mercari_logo_corporate.png">
+                <a href="#sponsors">
+                    <img alt="MEDIA DO HOLDINGS Co., Ltd." src="logo_MD.png">
                 </a>
             </td>
         </tr>
         <tr>
+            <td class="sponsor">
+                <a href="https://www.mercari.com/jp/">
+                    <img alt="Mecari, Inc." src="mercari_logo_corporate.png">
+                </a>
+            </td>
             <td class="sponsor">
                 <a href="https://progate.com">
                     <img alt="Progate, Inc." src="Progate_logo1.png">
